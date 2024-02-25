@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.env
 
 # testing
 /coverage
@@ -21,3 +22,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+/src/Welcome.js
+/ApiCall.js
+/circle.js
+/laundry.sql
+
+/mostSimilarWord.js
+/backend
+
