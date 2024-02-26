@@ -42,6 +42,7 @@ function Order() {
             });
 
             if (response.ok) {
+                console.log("hii")
                 const responseData = await response.json(); // Parse the JSON response body
                 navigate(`/order_success`, { state: { message: "order successful" } })
             }
