@@ -8,7 +8,7 @@ function Service() {
                     <div className="d-flex justify-content-center align-items-center mt-5">
                         <div>
                             <h6 className=" text-uppercase text-center font-weight-medium mb-3" style={{ color: "rgb(70, 198, 206)" }}>
-                                Working Process
+                                OUR SERVICES
                             </h6>
                             <h1 className="mt-2 mb-4" style={{ color: "rgb(25, 67, 118)", fontWeight: "700" }}>What We Offer</h1>
                         </div>

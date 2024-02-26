@@ -15,15 +15,14 @@ CREATE TABLE cloth_details (
 );
 
 CREATE TABLE delivery (
-    delivery_id INT NOT NULL AUTO_INCREMENT,
+    delivery_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     cust_mobile VARCHAR(12),
     db_mobile VARCHAR(12),
     payment_mode VARCHAR(10),
     bill INT,
     paid_amount INT,
     payment_verify VARCHAR(1),
-    date date,
-    PRIMARY KEY (delivery_id)
+    delivery_date DATE
 );
 
 CREATE TABLE delivery_account (
@@ -34,8 +33,9 @@ CREATE TABLE delivery_account (
     remaining_bill INT,
     PRIMARY KEY (account_id),
     FOREIGN KEY (delivery_id) REFERENCES delivery(delivery_id),
-    FOREIGN KEY (db_mobile) REFERENCES db_details(db_mobile)
+    INDEX (db_mobile)
 );
+
 
 CREATE TABLE db_details (
     db_name VARCHAR(30),
