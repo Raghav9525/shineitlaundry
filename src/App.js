@@ -1,17 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-// import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar';
 import Order from './components/Order';
 import 'bootstrap/dist/css/bootstrap.css';
-import VoiceToText from './components/VoiceToText';
 import Home from './components/Home';
 import About from './components/About';
 import Service from './components/Service';
 import WorkProcess from './components/WorkProcess';
 import Dashboard from './components/Dashboard';
-import Table from './components/Table';
-import Welcome from './Welcome';
 import Footer from './components/Footer';
 
 function App() {
