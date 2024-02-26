@@ -20,7 +20,7 @@ function Home() {
 
                 <p className="fw-bold d-none d-md-block" style={{ fontSize: "8vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
                 {/* for mobile size */}
-                <p className="fw-bold d-block d-md-none" style={{ fontSize: "4vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
+                <p className="fw-bold d-block d-md-none" style={{ fontSize: "2vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
 
                 {/* button for desktop screen */}
                 <div className='d-flex justify-content-center' >
@@ -36,7 +36,7 @@ function Home() {
 
                 <p className="fw-bold d-none d-md-block" style={{ fontSize: "8vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
                 {/* for mobile size */}
-                <p className="fw-bold d-block d-md-none" style={{ fontSize: "4vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
+                <p className="fw-bold d-block d-md-none" style={{ fontSize: "2vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
 
                 {/* button for desktop screen */}
                 <div className='d-flex justify-content-center' >
@@ -52,7 +52,7 @@ function Home() {
 
                 <p className="fw-bold d-none d-md-block" style={{ fontSize: "8vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
                 {/* for mobile size */}
-                <p className="fw-bold d-block d-md-none" style={{ fontSize: "4vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
+                <p className="fw-bold d-block d-md-none" style={{ fontSize: "2vh", color: "white", fontFamily: "sans-serif" }}>We Make Your Clothes Fresh and Clean</p>
 
                 {/* button for desktop screen */}
                 <div className='d-flex justify-content-center' >
